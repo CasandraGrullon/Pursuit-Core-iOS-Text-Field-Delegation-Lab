@@ -10,11 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var randomWordLabel: UILabel!
+    
+    @IBOutlet weak var textField: UITextField!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        randomWordLabel.text = Word.getRandomWord().scrambled
     }
 
 
+    @IBAction func resetButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func textFieldAction(_ sender: UITextField) {
+    }
+    
+    
+    
 }
 
