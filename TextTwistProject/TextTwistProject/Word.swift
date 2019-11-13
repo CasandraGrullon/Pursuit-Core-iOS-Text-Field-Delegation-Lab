@@ -18,13 +18,5 @@ struct Word {
             Word(unscrambled: "fixing")
         ].randomElement()!
     }
-    
-    static func randomWordArr(word: String) -> [Character] {
-        var arr = [Character]()
-        
-        for char in word {
-            arr.append(char)
-        }
-        return arr
-    }
+
 }

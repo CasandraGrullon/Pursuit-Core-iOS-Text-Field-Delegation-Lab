@@ -30,9 +30,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ip9-5R-teV">
-                                <rect key="frame" x="184" y="209" width="46" height="30"/>
+                                <rect key="frame" x="190" y="209" width="35" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="reset"/>
                                 <connections>
                                     <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QdP-DC-Ucj"/>
                                 </connections>
@@ -52,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="randomWordLabel" destination="FrP-hX-SAi" id="lVf-u1-VSR"/>
+                        <outlet property="reset" destination="ip9-5R-teV" id="EDB-Rc-dhI"/>
                         <outlet property="screen" destination="8bC-Xf-vdC" id="zcb-m4-blO"/>
                         <outlet property="textField" destination="YTb-Vi-6W7" id="XRp-Ld-7wm"/>
                     </connections>
