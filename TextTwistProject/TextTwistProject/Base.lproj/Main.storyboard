@@ -52,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="randomWordLabel" destination="FrP-hX-SAi" id="lVf-u1-VSR"/>
+                        <outlet property="screen" destination="8bC-Xf-vdC" id="zcb-m4-blO"/>
                         <outlet property="textField" destination="YTb-Vi-6W7" id="XRp-Ld-7wm"/>
                     </connections>
                 </viewController>
